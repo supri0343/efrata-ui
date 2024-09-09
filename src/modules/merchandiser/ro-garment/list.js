@@ -3,6 +3,7 @@ import { Service } from "./service";
 import { Router } from 'aurelia-router';
 import { activationStrategy } from 'aurelia-router';
 import { AuthService } from "aurelia-authentication";
+import moment from 'moment';
 
 @inject(Router, Service, AuthService)
 export class List {
